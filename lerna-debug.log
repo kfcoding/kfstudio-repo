@@ -1,0 +1,90 @@
+0 silly input [ 'start' ]
+1 silly flags { _: [ 'run' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   scope: '@kfstudio/kfstudio1',
+1 silly flags   script: 'start',
+1 silly flags   args: [] }
+2 verbose rootPath /Users/gd/data/projects/kfcoding/kfstudio
+3 info version 2.11.0
+4 silly existsSync /Users/gd/data/projects/kfcoding/kfstudio/VERSION
+5 info scope @kfstudio/kfstudio1
+6 silly initialize attempt
+7 silly initialize success
+8 silly execute attempt
+9 silly runScriptInDir start [] kfstudio1
+10 silly getExecOpts { cwd: '/Users/gd/data/projects/kfcoding/kfstudio/packages/kfstudio1' }
+11 error start Errored while running script in '@kfstudio/kfstudio1'
+12 error execute callback with error
+13 error Error: Command failed: npm run start
+13 error node(1937,0x7fffa5566380) malloc: *** error for object 0x10b43ac70: pointer being freed was not allocated
+13 error *** set a breakpoint in malloc_error_break to debug
+13 error npm ERR! code ELIFECYCLE
+13 error npm ERR! errno 1
+13 error npm ERR! @kfstudio/kfstudio1@0.0.1 start: `react-app-rewired start`
+13 error npm ERR! Exit status 1
+13 error npm ERR!
+13 error npm ERR! Failed at the @kfstudio/kfstudio1@0.0.1 start script.
+13 error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+13 error
+13 error npm ERR! A complete log of this run can be found in:
+13 error npm ERR!     /Users/gd/.npm/_logs/2018-09-18T05_25_49_142Z-debug.log
+13 error
+13 error > @kfstudio/kfstudio1@0.0.1 start /Users/gd/data/projects/kfcoding/kfstudio/packages/kfstudio1
+13 error > react-app-rewired start
+13 error
+13 error Starting the development server...
+13 error
+13 error Compiled with warnings.
+13 error
+13 error ./src/stores/Page.js
+13 error   Line 1:   'getSnapshot' is defined but never used  no-unused-vars
+13 error   Line 6:   'Instance' is defined but never used     no-unused-vars
+13 error   Line 8:   'BaseStencil' is defined but never used  no-unused-vars
+13 error   Line 39:  Unreachable code                         no-unreachable
+13 error
+13 error ./src/stores/stencils/Coder.js
+13 error   Line 1:  'React' is defined but never used     no-unused-vars
+13 error   Line 2:  'types' is defined but never used     no-unused-vars
+13 error   Line 3:  'AntdCard' is defined but never used  no-unused-vars
+13 error
+13 error ./src/stores/stencils/Card.js
+13 error   Line 1:  'React' is defined but never used     no-unused-vars
+13 error   Line 2:  'types' is defined but never used     no-unused-vars
+13 error   Line 3:  'AntdCard' is defined but never used  no-unused-vars
+13 error   Line 5:  'Instance' is defined but never used  no-unused-vars
+13 error
+13 error ./src/stores/stencils/Textbox.js
+13 error   Line 1:  'React' is defined but never used  no-unused-vars
+13 error
+13 error ./src/stores/index.js
+13 error   Line 1:  'getSnapshot' is defined but never used  no-unused-vars
+13 error
+13 error ./src/stores/Instance.js
+13 error   Line 2:  'Stencil' is defined but never used  no-unused-vars
+13 error
+13 error ./src/components/Propbar.js
+13 error   Line 3:  'Collapse' is defined but never used  no-unused-vars
+13 error   Line 3:  'Icon' is defined but never used      no-unused-vars
+13 error   Line 3:  'Input' is defined but never used     no-unused-vars
+13 error
+13 error ./src/components/Toolbox.js
+13 error   Line 6:   'values' is defined but never used          no-unused-vars
+13 error   Line 23:  'store' is assigned a value but never used  no-unused-vars
+13 error
+13 error ./src/components/Sidebar.js
+13 error   Line 6:  'Panel' is assigned a value but never used  no-unused-vars
+13 error
+13 error ./src/components/Content.js
+13 error   Line 95:   Do not mutate state directly. Use setState()  react/no-direct-mutation-state
+13 error   Line 98:   Expected a default case                       default-case
+13 error   Line 136:  'node' is already defined                     no-redeclare
+13 error   Line 157:  Unreachable code                              no-unreachable
+13 error   Line 157:  'change1' is assigned a value but never used  no-unused-vars
+13 error
+13 error Search for the keywords to learn more about each warning.
+13 error To ignore, add // eslint-disable-next-line to the line before.
+13 error
+13 error
+13 error     at Promise.all.then.arr (/Users/gd/data/projects/kfcoding/kfstudio/node_modules/execa/index.js:236:11)
+13 error     at <anonymous>

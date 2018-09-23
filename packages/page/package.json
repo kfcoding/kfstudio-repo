@@ -1,0 +1,45 @@
+{
+  "name": "@kfstudio/page",
+  "version": "1.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "immutable": "^3.8.2",
+    "prismjs": "^1.15.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-rnd": "^9.0.2",
+    "react-split-pane": "^0.1.82",
+    "slate": "^0.34.2",
+    "slate-auto-replace": "^0.9.1",
+    "slate-edit-blockquote": "^0.6.1",
+    "slate-edit-code": "^0.15.5",
+    "slate-edit-list": "^0.11.3",
+    "slate-no-empty": "^0.1.0",
+    "slate-prism": "^0.5.0",
+    "slate-react": "^0.12.11",
+    "slate-schema-violations": "^0.1.39",
+    "styled-components": "^3.4.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "antd": "^3.8.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "react-contenteditable": "^2.1.5",
+    "react-keydown": "^1.9.7"
+  },
+  "peerDependencies": {
+    "codemirror": "^5.18.2",
+    "react-codemirror": "^1.0.0"
+  }
+}

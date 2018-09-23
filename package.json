@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  },
+  "scripts": {
+    "start": "lerna run start --scope @kfstudio/kfstudio1",
+    "build:watch": "lerna exec --parallel --ignore '@kfstudio/kfstudi*' -- babel src -d lib --copy-files -w"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "immutable": "^3.8.2",
+    "slate": "^0.40.2",
+    "slate-react": "^0.18.4"
+  }
+}
